@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centro Especialista Quito — Terapia Neural, Acupuntura y Tratamiento del Dolor | Cita previa</title>
+<meta name="description" content="Centro Especialista Quito: Terapia Neural, Acupuntura, tratamiento de columna, cadera y rodilla, rehabilitación neurológica y C2 Care (realidad virtual). Corregimos la causa, no solo aliviamos. +5.000 pacientes. Atención previa cita en Quito.">
+<meta name="theme-color" content="#2F6B45">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Centro Especialista Quito">
+<meta property="og:description" content="Corregimos la causa, no solo aliviamos. Terapia Neural, Acupuntura y tratamiento del dolor en Quito. Atención previa cita.">
+<meta property="og:image" content="logo.png">
+<meta property="og:locale" content="es_EC">
+<meta property="og:url" content="https://bryanligabow-lab.github.io/centro-especialista-quito/">
+<link rel="icon" href="logo.png">
+<link rel="canonical" href="https://bryanligabow-lab.github.io/centro-especialista-quito/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Centro Especialista Quito",
+  "description": "Terapia Neural, Acupuntura, tratamiento de columna, cadera y rodilla, rehabilitación neurológica y C2 Care (realidad virtual). Corregimos la causa, no solo aliviamos.",
+  "url": "https://bryanligabow-lab.github.io/centro-especialista-quito/",
+  "image": "https://bryanligabow-lab.github.io/centro-especialista-quito/logo.png",
+  "logo": "https://bryanligabow-lab.github.io/centro-especialista-quito/logo.png",
+  "telephone": "+593992712686",
+  "email": "centroespecialistaquito@gmail.com",
+  "priceRange": "$$",
+  "medicalSpecialty": ["Neurology", "PhysicalTherapy", "PainMedicine"],
+  "areaServed": { "@type": "City", "name": "Quito" },
+  "availableService": [
+    { "@type": "MedicalTherapy", "name": "Terapia Neural" },
+    { "@type": "MedicalTherapy", "name": "Acupuntura" },
+    { "@type": "MedicalTherapy", "name": "Terapia del dolor: columna, cadera y rodilla" },
+    { "@type": "MedicalTherapy", "name": "Rehabilitación neurológica y neurocognitiva (Método Perfetti)" },
+    { "@type": "MedicalTherapy", "name": "C2 Care — Terapia inmersiva con Realidad Virtual" }
+  ],
+  "location": [
+    {
+      "@type": "Place",
+      "name": "Sucursal Norte",
+      "address": { "@type": "PostalAddress", "addressLocality": "Quito", "addressRegion": "Pichincha", "addressCountry": "EC" },
+      "description": "Sector Clínica Pasteur y Metro La Pradera. Atención de lunes a sábado, previa cita."
+    },
+    {
+      "@type": "Place",
+      "name": "Sucursal Sur",
+      "address": { "@type": "PostalAddress", "addressLocality": "Quito", "addressRegion": "Pichincha", "addressCountry": "EC" },
+      "description": "Sector Hospital del IESS del Sur y Estación del Trole El Calzado. Atención lunes, miércoles, viernes y sábado, previa cita."
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --verde: #2F6B45;
+    --verde-claro: #3f8a5c;
+    --azul: #1D5C99;
+    --azul-oscuro: #12324F;
+    --navy: #0F2A47;
+    --whatsapp: #25D366;
+    --coral: #E8683E;
+    --dorado: #D79A2E;
+    --dorado-claro: #E9BA5E;
+    --sage-bg: #F2F5F0;
+    --azul-bg: #EEF3F8;
+    --crema: #FBFAF7;
+  }
+  * { box-sizing: border-box; margin:0; padding:0; }
+  html { scroll-behavior:smooth; }
+  body { font-family:'Manrope',system-ui,sans-serif; color:var(--navy); background:var(--crema); line-height:1.55; overflow-x:hidden; }
+  h1,h2,.display { font-family:'Fraunces',Georgia,serif; font-weight:600; letter-spacing:-0.01em; }
+  a { color:inherit; text-decoration:none; }
+  img { max-width:100%; display:block; }
+  .container { max-width:1100px; margin:0 auto; padding:0 20px; }
+
+  /* ------- reveal (progressive enhancement; visible by default if JS fails) ------- */
+  .js-anim [data-reveal]{ opacity:0; transform:translateY(34px); transition:opacity .7s cubic-bezier(.22,.61,.36,1), transform .7s cubic-bezier(.22,.61,.36,1); will-change:opacity, transform; }
+  .js-anim [data-reveal].in{ opacity:1; transform:none; }
+
+  @keyframes pulse-icon { 0%,100%{ transform:scale(1); } 50%{ transform:scale(1.12); filter:brightness(1.15); } }
+  @keyframes spin-slow { from{transform:rotate(0deg);} to{transform:rotate(360deg);} }
+  @keyframes float-y { 0%,100%{transform:translateY(0px);} 50%{transform:translateY(-6px);} }
+  @keyframes dot-pulse { 0%,100%{ opacity:1; r:5;} 50%{ opacity:0.5; r:7;} }
+  @keyframes gradient-drift { 0%{ transform:translate(0,0) scale(1);} 50%{ transform:translate(3%,2%) scale(1.08);} 100%{ transform:translate(0,0) scale(1);} }
+  @keyframes ring-pulse { 0%{ transform:scale(0.8); opacity:0.55;} 70%{ transform:scale(1.35); opacity:0;} 100%{ opacity:0;} }
+
+  header { display:flex; align-items:center; justify-content:space-between; padding:14px 24px; background:rgba(251,250,247,0.85); backdrop-filter:saturate(180%) blur(12px); position:sticky; top:0; z-index:50; flex-wrap:wrap; gap:10px; border-bottom:1px solid #e6e2d8; transition:box-shadow .25s, padding .25s; }
+  header.scrolled { box-shadow:0 6px 24px rgba(15,42,71,0.08); }
+  .brand { display:flex; align-items:center; gap:12px; }
+  .brand img { width:50px; height:50px; }
+  .brand-text { font-family:'Fraunces',serif; font-weight:600; font-size:17px; line-height:1.15; }
+  .brand-text .quito { color:var(--verde); display:block; }
+  nav { display:flex; gap:16px; font-size:13px; color:#4a5b3f; flex-wrap:wrap; font-weight:600; }
+  nav a{ position:relative; }
+  nav a::after{ content:''; position:absolute; left:0; bottom:-4px; width:0; height:2px; background:var(--verde); transition:width .25s; }
+  nav a:hover::after{ width:100%; }
+  nav a:hover { color:var(--verde); }
+  .header-right { display:flex; align-items:center; gap:14px; }
+  .header-phone { font-size:13px; font-weight:700; color:var(--verde); white-space:nowrap; }
+  .header-phone span { color:#8a9583; font-weight:600; }
+  .btn-cta { background:var(--whatsapp); color:#fff; border:none; padding:10px 20px; border-radius:30px; font-weight:700; font-size:14px; white-space:nowrap; box-shadow:0 3px 10px rgba(37,211,102,0.3); cursor:pointer; display:inline-flex; align-items:center; gap:7px; transition:transform .2s, filter .2s, box-shadow .2s; }
+  .btn-cta:hover { filter:brightness(1.05); transform:translateY(-2px); box-shadow:0 8px 20px rgba(37,211,102,0.4); }
+  .menu-toggle { display:none; background:none; border:none; padding:6px; cursor:pointer; color:var(--navy); }
+  .menu-toggle svg{ width:24px; height:24px; display:block; }
+
+  /* ---------------- HERO ---------------- */
+  .hero { position:relative; padding:70px 20px 40px; text-align:center; overflow:hidden; }
+  .hero-bg { position:absolute; inset:-10% -10% 0 -10%; z-index:0; pointer-events:none; }
+  .hero-blob { position:absolute; border-radius:50%; filter:blur(40px); opacity:0.55; animation:gradient-drift 14s ease-in-out infinite; }
+  .hero-blob.b1 { width:420px; height:420px; background:#CFE6D3; top:-80px; left:-40px; }
+  .hero-blob.b2 { width:460px; height:460px; background:#D7E7F5; top:-60px; right:-60px; animation-delay:-5s; }
+  .hero-blob.b3 { width:320px; height:320px; background:#F5E4CE; bottom:-140px; left:40%; animation-delay:-9s; }
+  .hero > * { position:relative; z-index:1; }
+  .badge { display:inline-flex; align-items:center; gap:7px; background:#fff; border:1px solid #dde5da; padding:7px 18px; border-radius:20px; font-size:13px; font-weight:700; color:var(--verde); margin-bottom:22px; box-shadow:0 4px 14px rgba(47,107,69,0.08); }
+  .badge .live-dot{ width:8px; height:8px; border-radius:50%; background:var(--verde); box-shadow:0 0 0 0 rgba(47,107,69,.5); animation:ring-pulse 2s infinite; }
+  .hero h1 { font-size:34px; max-width:840px; margin:0 auto 18px; line-height:1.28; color:var(--navy); }
+  .hero h1 .hl{ color:var(--verde); }
+  .hero p.sub { max-width:660px; margin:0 auto 26px; font-size:16px; color:#465548; }
+  .tap-callout { background:linear-gradient(135deg,#FFF6E4,#FFFDF7); border:2.5px dashed var(--dorado); border-radius:22px; padding:20px 14px 22px; margin:0 auto 22px; max-width:640px; position:relative; animation:callout-glow 1.8s ease-in-out infinite; }
+  @keyframes callout-glow { 0%,100%{ box-shadow:0 0 0 0 rgba(215,154,46,0.4); } 50%{ box-shadow:0 0 0 12px rgba(215,154,46,0); } }
+  .tap-eyebrow { display:inline-block; background:var(--coral); color:#fff; font-size:12.5px; font-weight:800; letter-spacing:.05em; padding:5px 14px; border-radius:20px; margin-bottom:8px; text-transform:uppercase; }
+  .tap-callout .hero-selector-label { font-size:17px; font-weight:800; color:var(--navy); margin-bottom:0; }
+  .big-hand { font-size:44px; line-height:1; margin:4px 0 10px; animation:hand-bounce 1s ease-in-out infinite; }
+  @keyframes hand-bounce { 0%,50%,100%{ transform:translateY(0) scale(1); } 25%{ transform:translateY(10px) scale(1.12); } }
+  .hero-selector { margin:0 auto 22px; max-width:640px; }
+  .hero-selector-label { font-size:15px; font-weight:800; color:var(--navy); margin-bottom:2px; }
+  .symptom-grid { display:grid; grid-template-columns:repeat(2, 1fr); gap:10px; }
+  .symptom-card { background:#fff; border:2px solid #DCE6DF; border-radius:16px; padding:16px 8px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; font-size:26px; text-decoration:none; color:var(--navy); font-weight:700; box-shadow:0 3px 10px rgba(20,40,30,0.07); transition:transform .15s, border-color .15s, box-shadow .15s; min-height:88px; }
+  .symptom-card span { font-size:13.5px; line-height:1.25; }
+  .symptom-card:hover, .symptom-card:active { border-color:var(--verde); transform:translateY(-2px) scale(1.02); box-shadow:0 6px 16px rgba(20,40,30,0.12); }
+  .hero-selector-chips { display:flex; gap:9px; justify-content:center; flex-wrap:wrap; }
+  .chip-select { background:#fff; border:1.5px solid #DCE6DF; color:var(--navy); padding:9px 16px; border-radius:30px; font-weight:600; font-size:13.5px; text-decoration:none; transition:transform .15s, border-color .15s, box-shadow .15s; box-shadow:0 2px 6px rgba(20,40,30,0.06); font-family:inherit; cursor:pointer; }
+  .chip-select:hover { border-color:var(--verde); transform:translateY(-1px); box-shadow:0 4px 12px rgba(20,40,30,0.1); }
+  .chip-sede-active { background:var(--verde); border-color:var(--verde); color:#fff; }
+  .sede-selector { margin-bottom:22px; }
+  .hero-buttons { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-bottom:26px; }
+  .btn-primary { background:var(--whatsapp); color:#fff; border:none; padding:15px 28px; border-radius:30px; font-weight:700; font-size:15px; box-shadow:0 6px 16px rgba(37,211,102,0.35); cursor:pointer; display:inline-flex; align-items:center; gap:9px; transition:transform .2s, filter .2s, box-shadow .2s; }
+  .btn-primary:hover { filter:brightness(1.05); transform:translateY(-2px); box-shadow:0 12px 26px rgba(37,211,102,0.45); }
+  .btn-secondary { background:transparent; color:var(--navy); border:2px solid var(--navy); padding:13px 24px; border-radius:30px; font-weight:700; font-size:15px; cursor:pointer; transition:background .2s,color .2s; }
+  .btn-secondary:hover { background:var(--navy); color:#fff; }
+
+  .hero-stats{ display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:6px; }
+  .hstat{ background:#fff; border:1px solid #e7ebe2; border-radius:14px; padding:14px 22px; min-width:132px; box-shadow:0 6px 18px rgba(15,42,71,0.05); }
+  .hstat .num{ font-family:'Fraunces',serif; font-weight:700; font-size:26px; color:var(--verde); line-height:1; }
+  .hstat .lbl{ font-size:11.5px; color:#6a7568; font-weight:600; margin-top:6px; }
+  .hstat .cita-tag{ color:var(--coral); }
+
+  .pulse-divider { width:100%; height:34px; overflow:hidden; }
+  .pulse-divider svg { width:100%; height:100%; display:block; }
+
+  section { padding:64px 20px; }
+  .section-title { text-align:center; font-size:28px; margin-bottom:8px; color:var(--navy); font-weight:600; }
+  .section-sub { text-align:center; font-size:14.5px; color:#6a7568; max-width:600px; margin:0 auto 38px; }
+  .eyebrow{ display:block; text-align:center; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; font-weight:800; color:var(--verde); margin-bottom:10px; }
+  .bg-sage { background:var(--sage-bg); }
+  .bg-azul { background:var(--azul-bg); }
+  .bg-crema { background:var(--crema); }
+
+  .reviews-head { text-align:center; }
+  .google-badge { display:inline-flex; align-items:center; gap:8px; background:#fff; border:1px solid #e5e2d8; border-radius:30px; padding:9px 18px; font-size:14px; color:var(--navy); box-shadow:0 3px 10px rgba(20,40,30,0.06); }
+  .google-badge strong { font-family:'Fraunces',serif; font-size:16px; }
+  .google-badge .google-count { color:#8a9583; font-size:12.5px; }
+  .reviews-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-top:24px; }
+  .review-card { background:#fff; border:1px solid #e5e2d8; border-radius:16px; padding:22px; box-shadow:0 4px 14px rgba(20,40,30,0.06); }
+  .review-stars { color:var(--dorado); font-size:14px; margin-bottom:10px; letter-spacing:2px; }
+  .review-card p { font-size:14.5px; color:#3a4a3c; line-height:1.6; margin-bottom:12px; }
+  .review-author { font-size:13px; font-weight:700; color:var(--verde); }
+  .bg-navy { background:var(--navy); color:#fff; }
+  .bg-navy .section-title { color:#fff; }
+  .bg-navy .section-sub { color:#b9c5d3; }
+
+  /* ---------------- REELS / VIDEO ---------------- */
+  .reels-section{ background:linear-gradient(180deg,#0F2A47 0%, #12324F 55%, #143a5e 100%); color:#fff; position:relative; overflow:hidden; }
+  .reels-section .section-title{ color:#fff; }
+  .reels-section .eyebrow{ color:var(--dorado-claro); }
+  .reels-section .section-sub{ color:#c3d0de; }
+  .reels-glow{ position:absolute; width:600px; height:600px; border-radius:50%; background:radial-gradient(circle, rgba(47,107,69,0.35), transparent 65%); top:-200px; left:-150px; filter:blur(30px); pointer-events:none; }
+  .reels-glow.g2{ background:radial-gradient(circle, rgba(29,92,153,0.4), transparent 65%); left:auto; right:-180px; top:auto; bottom:-220px; }
+  .reels-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:22px; position:relative; z-index:1; }
+  .reel{ position:relative; }
+  .phone{ position:relative; border-radius:26px; overflow:hidden; background:#000; box-shadow:0 18px 44px rgba(0,0,0,0.45); border:3px solid rgba(255,255,255,0.12); aspect-ratio:9/16; transition:transform .35s ease, box-shadow .35s ease, border-color .35s; }
+  .reel.playing .phone{ transform:translateY(-6px) scale(1.015); border-color:rgba(215,154,46,0.55); box-shadow:0 26px 60px rgba(0,0,0,0.55); }
+  .phone video{ width:100%; height:100%; object-fit:cover; display:block; background:#000; cursor:pointer; }
+  /* Play cue shown while paused (helps if a browser blocks muted autoplay) */
+  .phone .play-cue{ position:absolute; left:50%; top:50%; width:60px; height:60px; transform:translate(-50%,-50%); background:rgba(15,42,71,0.5); border-radius:50%; display:flex; align-items:center; justify-content:center; z-index:2; pointer-events:none; transition:opacity .35s; }
+  .phone .play-cue::after{ content:''; width:0; height:0; margin-left:4px; border-style:solid; border-width:11px 0 11px 18px; border-color:transparent transparent transparent #fff; }
+  .reel.playing .play-cue{ opacity:0; }
+  .reel-tag{ position:absolute; top:12px; left:12px; z-index:3; background:rgba(15,42,71,0.72); backdrop-filter:blur(4px); color:#fff; font-size:11px; font-weight:700; padding:5px 11px; border-radius:20px; display:flex; align-items:center; gap:6px; }
+  .reel-tag .tdot{ width:7px;height:7px;border-radius:50%; background:var(--coral); }
+  .reel.playing .reel-tag .tdot{ background:#4be08a; box-shadow:0 0 0 0 rgba(75,224,138,.6); animation:ring-pulse 1.6s infinite; }
+  .sound-btn{ position:absolute; bottom:12px; right:12px; z-index:3; width:40px; height:40px; border-radius:50%; border:none; cursor:pointer; background:rgba(15,42,71,0.78); color:#fff; display:flex; align-items:center; justify-content:center; backdrop-filter:blur(4px); transition:transform .2s, background .2s; }
+  .sound-btn:hover{ transform:scale(1.1); background:var(--verde); }
+  .sound-btn svg{ width:20px; height:20px; }
+  .reel-caption{ text-align:center; margin-top:14px; }
+  .reel-caption .rc-title{ font-family:'Fraunces',serif; font-weight:600; font-size:15px; color:#fff; }
+  .reel-caption .rc-sub{ font-size:12px; color:#a9b8c8; margin-top:2px; }
+  .reels-cta{ text-align:center; margin-top:36px; position:relative; z-index:1; }
+  .reels-note{ text-align:center; font-size:12px; color:#8ea0b2; margin-top:14px; position:relative; z-index:1; }
+
+  /* ASI TRABAJAMOS */
+  .trabajo-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:20px; }
+  .trabajo-card { background:#fff; border-radius:16px; overflow:hidden; border:1px solid #e5e9e0; transition:transform .28s, box-shadow .28s; }
+  .trabajo-card:hover{ transform:translateY(-6px); box-shadow:0 18px 40px rgba(15,42,71,0.10); }
+  .trabajo-thumb { height:120px; display:flex; align-items:center; justify-content:center; position:relative; background:linear-gradient(135deg, var(--verde), var(--azul)); color:#fff; font-size:40px; }
+  .trabajo-thumb.t2 { background:linear-gradient(135deg, var(--azul-oscuro), var(--coral)); }
+  .trabajo-thumb.t3 { background:linear-gradient(135deg, var(--dorado), var(--verde)); }
+  .trabajo-thumb.t4 { background:linear-gradient(135deg, var(--azul), var(--dorado)); }
+  .trabajo-text { padding:16px 18px; font-size:13.5px; color:#3a4a3c; }
+
+  .tratamos-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:20px; }
+  .tcard { background:#fff; border:1px solid #e5e9e0; border-radius:16px; padding:26px; position:relative; transition:transform .28s, box-shadow .28s; }
+  .tcard:hover{ transform:translateY(-6px); box-shadow:0 20px 44px rgba(15,42,71,0.10); }
+  .tcard.featured { border:2px solid var(--dorado); background:linear-gradient(180deg,#fffdf7,#fff); }
+  .tcard .star-tag { display:inline-block; background:var(--dorado); color:#fff; font-size:11px; font-weight:700; padding:4px 10px; border-radius:12px; margin-bottom:12px; }
+  .tcard .icon-wrap { width:52px; height:52px; display:flex; align-items:center; justify-content:center; margin-bottom:12px; }
+  .tcard .icon-emoji { font-size:30px; display:inline-block; }
+  .anim-pulse { animation: pulse-icon 2.2s ease-in-out infinite; }
+  .anim-spin { animation: spin-slow 6s linear infinite; display:inline-block; }
+  .anim-float { animation: float-y 2.4s ease-in-out infinite; display:inline-block; }
+  .tcard h3 { font-family:'Fraunces',serif; font-size:19px; margin-bottom:10px; font-weight:600; }
+  .tcard .gancho { font-weight:700; color:var(--azul); font-size:14.5px; margin-bottom:12px; line-height:1.4; }
+  .tcard .explica { font-size:12.5px; color:#5a6b57; margin-bottom:12px; line-height:1.65; background:#f7faf6; padding:10px 12px; border-radius:8px; }
+  .tcard .lista { font-size:12.5px; color:#5a6b57; line-height:1.75; }
+  .tcard .tecnicas { font-size:11.5px; color:#8a9583; margin-top:12px; padding-top:12px; border-top:1px dashed #e5e9e0; }
+
+  .joint-svg circle { animation: dot-pulse 1.8s ease-in-out infinite; }
+  .joint-svg circle:nth-child(2){ animation-delay:0.3s; }
+  .joint-svg circle:nth-child(3){ animation-delay:0.6s; }
+
+  .c2-section { background: linear-gradient(135deg, var(--azul-oscuro) 0%, #2b4f7a 60%, #6b4a8a 130%); color:#fff; }
+  .c2-flex { display:grid; grid-template-columns:1fr 1.3fr; gap:40px; align-items:center; }
+  .c2-tag { display:inline-block; background:rgba(255,255,255,0.15); padding:6px 16px; border-radius:20px; font-size:12.5px; font-weight:700; margin-bottom:14px; }
+  .c2-flex h2 { font-size:26px; margin-bottom:14px; }
+  .c2-flex p { font-size:14.5px; opacity:0.92; margin-bottom:14px; }
+  .c2-box { background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.18); border-radius:14px; padding:20px; font-size:13.5px; margin-bottom:14px; }
+  .c2-visual { display:flex; align-items:center; justify-content:center; }
+  .vr-icon { font-size:100px; animation: float-y 3s ease-in-out infinite; }
+  .c2-lista { font-size:13px; opacity:0.9; margin-top:6px; }
+  .c2-btn { background:#fff; color:var(--azul-oscuro); border:none; padding:12px 26px; border-radius:24px; font-weight:700; font-size:14px; margin-top:10px; cursor:pointer; display:inline-block; transition:transform .2s; }
+  .c2-btn:hover{ transform:translateY(-2px); }
+  @media (max-width:750px){ .c2-flex{ grid-template-columns:1fr; } }
+
+  .porque-grid { display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; }
+  .porque-grid p { font-size:15px; color:#cfd8e2; margin-bottom:14px; }
+  .porque-badge { display:inline-block; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); padding:20px 24px; border-radius:14px; font-size:14px; color:#e5eaf0; }
+  @media (max-width:750px){ .porque-grid{ grid-template-columns:1fr; } }
+
+  .sedes-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; }
+  .sede-card { background:#fff; border:1px solid #dce4ee; border-radius:16px; padding:26px; text-align:center; transition:transform .28s, box-shadow .28s; }
+  .sede-card:hover{ transform:translateY(-6px); box-shadow:0 18px 40px rgba(15,42,71,0.10); }
+  .sede-card h3 { font-family:'Fraunces',serif; margin-bottom:8px; font-weight:600; font-size:18px; }
+  .sede-card .ref { font-size:13px; color:#5a6878; margin-bottom:14px; }
+  .sede-card .previa { display:inline-block; background:#FFF3EA; color:var(--coral); font-weight:800; font-size:13px; padding:8px 16px; border-radius:10px; }
+
+  /* ---------------- SERVICIOS PREMIUM ---------------- */
+  .premium-section{ background:linear-gradient(180deg,#12324F 0%, #0F2A47 100%); color:#fff; position:relative; overflow:hidden; }
+  .premium-section .eyebrow{ color:var(--dorado-claro); }
+  .premium-section .section-title{ color:#fff; }
+  .premium-section .section-sub{ color:#c3d0de; }
+  .premium-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:22px; position:relative; z-index:1; }
+  .pxcard{ position:relative; border-radius:18px; padding:28px 24px; background:linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03)); border:1px solid rgba(215,154,46,0.28); overflow:hidden; transition:transform .3s, box-shadow .3s, border-color .3s; }
+  .pxcard::before{ content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg, var(--dorado), var(--dorado-claro)); }
+  .pxcard:hover{ transform:translateY(-8px); border-color:rgba(215,154,46,0.6); box-shadow:0 26px 60px rgba(0,0,0,0.4); }
+  .px-badge{ display:inline-flex; align-items:center; gap:6px; background:rgba(215,154,46,0.16); color:var(--dorado-claro); font-size:11px; font-weight:800; letter-spacing:0.04em; padding:5px 12px; border-radius:20px; margin-bottom:16px; text-transform:uppercase; }
+  .px-icon{ font-size:38px; margin-bottom:14px; display:inline-block; }
+  .pxcard h3{ font-family:'Fraunces',serif; font-size:20px; font-weight:600; margin-bottom:10px; color:#fff; }
+  .pxcard p{ font-size:13.5px; color:#c8d4e0; line-height:1.6; margin-bottom:16px; }
+  .px-feats{ list-style:none; margin-bottom:20px; }
+  .px-feats li{ font-size:12.8px; color:#dbe4ee; padding:5px 0 5px 22px; position:relative; }
+  .px-feats li::before{ content:'✦'; position:absolute; left:0; color:var(--dorado-claro); }
+  .px-link{ display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:700; color:#fff; border-bottom:2px solid rgba(215,154,46,0.6); padding-bottom:2px; transition:gap .2s, border-color .2s; }
+  .px-link:hover{ gap:12px; border-color:var(--dorado-claro); }
+
+  .pasos { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:28px; text-align:center; }
+  .paso .num { width:46px; height:46px; border-radius:50%; background:var(--verde); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; font-family:'Fraunces',serif; margin:0 auto 16px; font-size:18px; box-shadow:0 8px 20px rgba(47,107,69,0.3); }
+  .paso h4 { font-family:'Fraunces',serif; margin-bottom:6px; font-size:16.5px; font-weight:600; }
+  .paso p { font-size:13.5px; color:#5a6b57; }
+
+  .previa-cita-badge { display:block; text-align:center; background:#fff; border:1.5px dashed var(--coral); color:var(--coral); font-weight:700; font-size:13.5px; padding:10px 20px; border-radius:12px; max-width:440px; margin:0 auto 30px; }
+  .precios-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
+  .pcard { background:#fff; border:1px solid #dce4ee; border-radius:16px; padding:24px; position:relative; display:flex; flex-direction:column; transition:transform .28s, box-shadow .28s; }
+  .pcard:hover{ transform:translateY(-6px); box-shadow:0 20px 44px rgba(15,42,71,0.10); }
+  .pcard.popular { border:2px solid var(--dorado); }
+  .pcard .tags { display:flex; gap:8px; margin-bottom:10px; }
+  .pcard .tag-pop { background:var(--dorado); color:#fff; font-size:10.5px; font-weight:700; letter-spacing:.03em; padding:3px 10px; border-radius:10px; text-transform:uppercase; }
+  .pcard .tag-new { background:var(--coral); color:#fff; font-size:10.5px; font-weight:700; letter-spacing:.03em; padding:3px 10px; border-radius:10px; text-transform:uppercase; }
+  .pcard-head { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
+  .pcard-icon { width:42px; height:42px; border-radius:12px; background:#eef4f0; display:flex; align-items:center; justify-content:center; font-size:20px; flex-shrink:0; }
+  .pcard h4 { font-family:'Fraunces',serif; font-size:17px; margin-bottom:0; font-weight:600; }
+  .pcard .trata-label,.pcard .incluye-label { font-size:11px; text-transform:uppercase; letter-spacing:0.04em; color:#8a97a3; font-weight:700; margin-bottom:4px; }
+  .pcard .trata { font-size:13px; color:#5a6878; margin-bottom:16px; line-height:1.6; }
+  .pcard ul { list-style:none; font-size:13px; color:#3a4a5c; margin-bottom:18px; flex-grow:1; }
+  .pcard ul li { padding:4px 0; }
+  .regalo-box { background:linear-gradient(120deg,#FFF3EA,#FFE8D9); border:1px dashed var(--coral); border-radius:10px; padding:10px 12px; margin-top:8px; display:flex; align-items:center; gap:10px; }
+  .regalo-box .gift-icon { font-size:26px; animation: pulse-icon 2s ease-in-out infinite; }
+  .regalo-box .gift-text { font-size:12px; color:#a05a2c; font-weight:700; line-height:1.4; }
+  .pcard .precio-box { border-top:2px solid #f0f2f0; padding-top:16px; margin-top:auto; display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:6px; }
+  .pcard .precio-label { font-size:12px; color:#8a97a3; font-weight:600; }
+  .pcard .precio { font-size:26px; font-weight:800; color:var(--verde); font-family:'Fraunces',serif; }
+  .pcard .precio .old { font-size:14px; color:#aab4c0; text-decoration:line-through; font-weight:400; margin-left:6px; }
+  .pcard .descuento { font-size:11.5px; color:#1a8f52; font-weight:700; margin-top:8px; background:#eafaf1; padding:5px 9px; border-radius:6px; display:inline-block; }
+  .precio-nota { background:var(--sage-bg); border-left:4px solid var(--verde); padding:18px 22px; font-size:13.5px; color:#3a4a3c; margin-top:28px; border-radius:8px; font-weight:600; }
+  .pago-nota { background:#FFF7ED; border-left:4px solid var(--coral); padding:18px 22px; font-size:13.5px; color:#5a3a24; margin-top:16px; border-radius:8px; }
+  .pago-nota strong { color:var(--coral); }
+
+  .faq-item { border-bottom:1px solid #e5e9e0; padding:20px 0; }
+  .faq-item h4 { font-family:'Fraunces',serif; font-size:15.5px; margin-bottom:7px; color:var(--navy); font-weight:600; }
+  .faq-item p { font-size:13.5px; color:#5a6b57; }
+
+  .contacto-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px; }
+  .contacto-card { background:#fff; border:1px solid #dce4ee; border-radius:16px; padding:26px; text-align:center; transition:transform .28s, box-shadow .28s; }
+  .contacto-card:hover{ transform:translateY(-6px); box-shadow:0 18px 40px rgba(15,42,71,0.10); }
+  .contacto-card .ic { font-size:30px; margin-bottom:10px; }
+  .contacto-card h4 { font-family:'Fraunces',serif; font-size:16px; margin-bottom:8px; font-weight:600; }
+  .contacto-card a { color:var(--azul); font-weight:700; font-size:14.5px; word-break:break-word; }
+  .contacto-card p { font-size:13px; color:#5a6878; }
+
+  .cta-final { background:linear-gradient(160deg,var(--navy) 0%,var(--azul-oscuro) 100%); color:#fff; text-align:center; padding:66px 20px; }
+  .cta-final h2 { font-size:28px; margin-bottom:16px; font-weight:600; }
+  .cta-final p { max-width:560px; margin:0 auto 28px; font-size:14.5px; opacity:0.88; }
+  .pay-block { margin-top:30px; display:flex; gap:30px; justify-content:center; flex-wrap:wrap; }
+  .pay-col { font-size:12.5px; opacity:0.85; }
+  .pay-col .label { font-weight:700; display:block; margin-bottom:4px; opacity:0.7; font-size:11px; text-transform:uppercase; letter-spacing:0.05em; }
+
+  footer { background:#0a1c14; color:#c3ccbf; padding:44px 20px 24px; font-size:13px; }
+  .footer-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:24px; max-width:1100px; margin:0 auto 28px; }
+  footer h5 { color:#fff; font-size:14px; margin-bottom:12px; font-family:'Fraunces',serif; font-weight:600; }
+  footer ul { list-style:none; }
+  footer li { padding:3px 0; }
+  footer a:hover { color:#fff; }
+  .footer-bottom { text-align:center; border-top:1px solid #16321f; padding-top:20px; font-size:11.5px; color:#7a8871; }
+  .footer-bottom a { color:#9db19a; text-decoration:underline; }
+
+  .wa-float { position:fixed; right:18px; bottom:18px; z-index:60; background:var(--whatsapp); color:#fff; width:58px; height:58px; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 10px 24px rgba(37,211,102,0.6); transition:transform .2s, opacity .3s; }
+  .wa-float::before{ content:''; position:absolute; inset:0; border-radius:50%; border:2px solid var(--whatsapp); animation:ring-pulse 2.4s infinite; }
+  .wa-float:hover { transform:scale(1.08); }
+  .wa-float.wa-dim{ opacity:0.45; }
+  .symptom-float { position:fixed; left:18px; bottom:18px; z-index:60; background:linear-gradient(135deg,var(--coral),var(--dorado)); color:#fff; width:66px; height:66px; border-radius:50%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:1px; box-shadow:0 10px 24px rgba(232,104,62,0.55); transition:transform .2s, opacity .3s, visibility .3s; text-decoration:none; text-align:center; }
+  .symptom-float .sf-hand { font-size:20px; line-height:1; animation:hand-bounce 1.2s ease-in-out infinite; }
+  .symptom-float .sf-text { font-size:9.5px; font-weight:800; line-height:1.15; }
+  .symptom-float:hover { transform:scale(1.08); }
+  .symptom-float.sf-hidden { opacity:0; visibility:hidden; pointer-events:none; transform:scale(0.8); }
+  @media (max-width:760px){
+    .wa-float{ width:48px; height:48px; right:14px; bottom:14px; box-shadow:0 6px 16px rgba(37,211,102,0.5); }
+    .wa-float svg{ width:24px; height:24px; }
+    .symptom-float{ width:56px; height:56px; left:14px; bottom:14px; box-shadow:0 6px 16px rgba(232,104,62,0.45); }
+    .symptom-float .sf-hand{ font-size:17px; }
+    .symptom-float .sf-text{ font-size:8.5px; }
+  }
+
+  @media (max-width:920px){ .reels-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:760px){
+    header{ padding:12px 16px; }
+    .header-phone{display:none;}
+    .menu-toggle{ display:flex; align-items:center; }
+    nav{
+      display:none; flex-direction:column; gap:0; width:100%;
+      position:absolute; top:100%; left:0; right:0;
+      background:#fff; border-bottom:1px solid #e6e2d8; box-shadow:0 14px 28px rgba(15,42,71,0.1);
+      padding:6px 20px 12px;
+    }
+    nav.nav-open{ display:flex; }
+    nav a{ padding:13px 2px; font-size:15px; border-bottom:1px solid #f0eee7; }
+    nav a:last-child{ border-bottom:none; }
+    nav a::after{ display:none; }
+    .btn-cta{ padding:9px 16px; font-size:13px; }
+    .brand-text{ font-size:15px; }
+    .brand img{ width:42px; height:42px; }
+
+    section{ padding:48px 18px; }
+    .hero{ padding:44px 16px 32px; }
+    .hero h1{ font-size:24px; line-height:1.32; }
+    .hero p.sub{ font-size:14.5px; }
+    .section-title{ font-size:22px; }
+    .section-sub{ font-size:14px; }
+    .btn-primary,.btn-secondary{ width:100%; justify-content:center; padding:14px 20px; }
+    .hero-buttons{ flex-direction:column; }
+    .hero-stats{ gap:10px; }
+    .hstat{ min-width:calc(50% - 5px); padding:12px 14px; }
+
+    .reels-grid{ grid-template-columns:repeat(2,1fr); gap:12px; }
+    .reel-tag{ font-size:10px; padding:4px 8px; }
+    .play-cue{ width:46px; height:46px; }
+    .sound-btn{ width:34px; height:34px; }
+    .sound-btn svg{ width:16px; height:16px; }
+    .reel-caption .rc-title{ font-size:13.5px; }
+    .reel-caption .rc-sub{ font-size:11px; }
+
+    .vr-icon{ font-size:64px; }
+    .c2-flex h2{ font-size:22px; }
+    .pxcard{ padding:22px 20px; }
+    .porque-grid .section-title{ text-align:center !important; }
+    .pay-block{ gap:20px; }
+  }
+  @media (max-width:430px){ .reels-grid{ grid-template-columns:1fr; max-width:280px; margin:0 auto; } }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation:none !important; scroll-behavior:auto !important; }
+    .js-anim [data-reveal]{ opacity:1 !important; }
+  }
+</style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1557120969525542');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1557120969525542&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body id="top">
+
+<header id="siteHeader">
+  <a class="brand" href="#top">
+    <img src="logo.png" alt="Logo Centro Especialista Quito">
+    <div class="brand-text">Centro Especialista<span class="quito">Quito</span></div>
+  </a>
+  <nav id="siteNav">
+    <a href="#videos">En video</a>
+    <a href="#tratamos">Servicios</a>
+    <a href="#premium">Premium</a>
+    <a href="#c2care">C2 Care</a>
+    <a href="#sedes">Sucursales</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <div class="header-right">
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="siteNav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <a class="header-phone" href="tel:+593992712686"><span>📞</span> 099 271 2686</a>
+    <a class="btn-cta js-wa" href="#" target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.6-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 2 .8 2.7.9 3.7.8.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2z"/></svg>
+      Agendar cita
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <span class="hero-blob b1"></span>
+    <span class="hero-blob b2"></span>
+    <span class="hero-blob b3"></span>
+  </div>
+  <div class="badge" data-reveal><span class="live-dot"></span> +5.000 pacientes atendidos</div>
+  <h1 data-reveal>Sea la primera vez que buscas ayuda, o ya hayas probado de todo — aquí encontramos la <span class="hl">causa real</span> de lo que sientes.</h1>
+  <p class="sub" data-reveal>Dolor que no se va, ansiedad que no te deja en paz, secuelas de un ACV o un miedo que te limita — trabajamos sobre el origen del problema, física, neurológica o emocional, no solo el síntoma.</p>
+  <div class="tap-callout" id="sintomas" data-reveal>
+    <span class="tap-eyebrow">Toca aquí</span>
+    <div class="hero-selector-label">¿Qué te está pasando?</div>
+    <div class="big-hand" aria-hidden="true">👇</div>
+    <div class="symptom-grid">
+      <a class="symptom-card" href="#pcard-columna">🦴<span>Dolor de espalda</span></a>
+      <a class="symptom-card" href="#pcard-rodilla">🦵<span>Dolor de rodilla</span></a>
+      <a class="symptom-card" href="#pcard-cadera">🦴<span>Dolor de cadera</span></a>
+      <a class="symptom-card" href="#pcard-neural">🔁<span>Dolor crónico / migraña</span></a>
+      <a class="symptom-card" href="#pcard-neural">🔔<span>Tinnitus (zumbido)</span></a>
+      <a class="symptom-card" href="#pcard-neural">😔<span>Ansiedad o depresión</span></a>
+      <a class="symptom-card" href="#pcard-rehab">🧩<span>Secuela de ACV</span></a>
+      <a class="symptom-card" href="#pcard-c2care">😨<span>Miedo o fobia</span></a>
+    </div>
+  </div>
+  <div class="hero-selector sede-selector" data-reveal>
+    <div class="hero-selector-label">¿Qué sucursal te queda más cerca?</div>
+    <div class="hero-selector-chips">
+      <button type="button" class="chip-select chip-sede" data-sede="Norte">📍 Sede Norte</button>
+      <button type="button" class="chip-select chip-sede" data-sede="Sur">📍 Sede Sur</button>
+    </div>
+  </div>
+  <div class="hero-buttons" data-reveal>
+    <a class="btn-primary js-wa" href="#" target="_blank" rel="noopener">Escribir por WhatsApp ahora →</a>
+    <a class="btn-secondary" href="#videos">Míranos en acción</a>
+  </div>
+  <div class="hero-stats" data-reveal>
+    <div class="hstat"><div class="num" data-count="5000" data-suffix="+">0</div><div class="lbl">pacientes atendidos</div></div>
+    <div class="hstat"><div class="num" data-count="2">0</div><div class="lbl">sucursales en Quito</div></div>
+    <div class="hstat"><div class="num" data-count="7" data-suffix="+">0</div><div class="lbl">tratamientos especializados</div></div>
+    <div class="hstat"><div class="num" style="font-size:19px;padding-top:4px;">📅</div><div class="lbl cita-tag">Atención previa cita</div></div>
+  </div>
+</section>
+
+<div class="pulse-divider" aria-hidden="true">
+  <svg viewBox="0 0 1200 34" preserveAspectRatio="none"><polyline points="0,17 340,17 370,4 395,30 420,17 1200,17" fill="none" stroke="#2F6B45" stroke-width="2.5"/></svg>
+</div>
+
+<!-- ================= REELS / VIDEO ================= -->
+<section class="reels-section" id="videos">
+  <span class="reels-glow" aria-hidden="true"></span>
+  <span class="reels-glow g2" aria-hidden="true"></span>
+  <div class="container">
+    <span class="eyebrow" data-reveal>Míranos en acción</span>
+    <div class="section-title" data-reveal>Así se ve una sesión real</div>
+    <div class="section-sub" data-reveal>Nuestros tratamientos y un testimonio real, en video. Se reproducen solos a medida que bajas — toca el 🔊 para escuchar.</div>
+
+    <div class="reels-grid">
+
+      <div class="reel" data-reveal>
+        <div class="phone">
+          <span class="reel-tag"><span class="tdot"></span> Acupuntura</span>
+          <video class="reel-video" poster="acupuntura.jpg" muted loop playsinline preload="none">
+            <source src="acupuntura.mp4" type="video/mp4">
+          </video>
+          <span class="play-cue" aria-hidden="true"></span>
+          <button class="sound-btn" aria-label="Activar sonido" data-muted="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 10v4h4l5 5V5L7 10H3zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/><line x1="19" y1="5" x2="5" y2="21" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+        </div>
+        <div class="reel-caption"><div class="rc-title">Acupuntura</div><div class="rc-sub">Medicina tradicional china · dolor crónico</div></div>
+      </div>
+
+      <div class="reel" data-reveal>
+        <div class="phone">
+          <span class="reel-tag"><span class="tdot"></span> Terapia Neural</span>
+          <video class="reel-video" poster="terapia-neural.jpg" muted loop playsinline preload="none">
+            <source src="terapia-neural.mp4" type="video/mp4">
+          </video>
+          <span class="play-cue" aria-hidden="true"></span>
+          <button class="sound-btn" aria-label="Activar sonido" data-muted="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 10v4h4l5 5V5L7 10H3zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/><line x1="19" y1="5" x2="5" y2="21" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+        </div>
+        <div class="reel-caption"><div class="rc-title">Terapia Neural</div><div class="rc-sub">Regula tu sistema nervioso</div></div>
+      </div>
+
+      <div class="reel" data-reveal>
+        <div class="phone">
+          <span class="reel-tag"><span class="tdot"></span> Testimonio</span>
+          <video class="reel-video" poster="testimonio.jpg" muted loop playsinline preload="none">
+            <source src="testimonio.mp4" type="video/mp4">
+          </video>
+          <span class="play-cue" aria-hidden="true"></span>
+          <button class="sound-btn" aria-label="Activar sonido" data-muted="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 10v4h4l5 5V5L7 10H3zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/><line x1="19" y1="5" x2="5" y2="21" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+        </div>
+        <div class="reel-caption"><div class="rc-title">Testimonio real</div><div class="rc-sub">"Apenas me aplicaron las inyecciones…"</div></div>
+      </div>
+
+      <div class="reel" data-reveal>
+        <div class="phone">
+          <span class="reel-tag"><span class="tdot"></span> Columna</span>
+          <video class="reel-video" poster="columna.jpg" muted loop playsinline preload="none">
+            <source src="columna.mp4" type="video/mp4">
+          </video>
+          <span class="play-cue" aria-hidden="true"></span>
+          <button class="sound-btn" aria-label="Activar sonido" data-muted="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 10v4h4l5 5V5L7 10H3zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/><line x1="19" y1="5" x2="5" y2="21" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+        </div>
+        <div class="reel-caption"><div class="rc-title">Columna y hernias</div><div class="rc-sub">¿Por qué aparecen las hernias de disco?</div></div>
+      </div>
+
+    </div>
+
+    <div class="reels-cta">
+      <a class="btn-primary js-wa" href="#" target="_blank" rel="noopener">Quiero una evaluación como esta →</a>
+    </div>
+    <div class="reels-note">🔇 Los videos inician sin sonido para no interrumpirte. Toca el botón de altavoz para escuchar.</div>
+  </div>
+</section>
+
+<section id="asi-trabajamos">
+  <div class="container">
+    <div class="section-title" data-reveal>Así trabajamos</div>
+    <div class="section-sub" data-reveal>Nada de procedimientos a ciegas. Así es una sesión real en Centro Especialista Quito.</div>
+    <div class="trabajo-grid">
+      <div class="trabajo-card" data-reveal>
+        <div class="trabajo-thumb">🩺</div>
+        <div class="trabajo-text">Evaluamos antes de tratar — cada sesión empieza con un diagnóstico real.</div>
+      </div>
+      <div class="trabajo-card" data-reveal>
+        <div class="trabajo-thumb t2">🥽</div>
+        <div class="trabajo-text">C2 Care en acción: exposición gradual y controlada, siempre acompañada.</div>
+      </div>
+      <div class="trabajo-card" data-reveal>
+        <div class="trabajo-thumb t3">🏥</div>
+        <div class="trabajo-text">Un espacio pensado para que te sientas cómodo desde que llegas.</div>
+      </div>
+      <div class="trabajo-card" data-reveal>
+        <div class="trabajo-thumb t4">🤲</div>
+        <div class="trabajo-text">Rehabilitación paso a paso, con método y seguimiento real.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-sage" id="tratamos">
+  <div class="container">
+    <div class="section-title" data-reveal>Nuestros tratamientos</div>
+    <div class="section-sub" data-reveal>Y todo lo que resolvemos con cada uno — ordenados según lo que más buscan nuestros pacientes.</div>
+    <div class="tratamos-grid">
+
+      <div class="tcard featured" data-reveal>
+        <div class="star-tag">El más solicitado</div>
+        <div class="icon-wrap"><span class="icon-emoji anim-pulse">🧠</span></div>
+        <h3>Terapia Neural</h3>
+        <div class="gancho">¿Sabías que tu dolor de espalda, tu ansiedad y tu insomnio pueden tener el mismo origen?</div>
+        <div class="explica">Regula tu sistema nervioso con microinyecciones de medicación homeopática en puntos específicos — sin anestésicos, sin cirugía.</div>
+        <div class="lista">Dolor crónico · Migraña · Fibromialgia · Ansiedad · Insomnio · Estrés · Tinnitus · Vértigo · Colon irritable · Prostatitis · Problemas circulatorios · Dolor menstrual · Bruxismo · Fatiga crónica · Cicatrices dolorosas</div>
+      </div>
+
+      <div class="tcard featured" data-reveal>
+        <div class="star-tag">⭐ Muy solicitado</div>
+        <div class="icon-wrap"><span class="icon-emoji anim-spin">☯️</span></div>
+        <h3>Acupuntura — Medicina Tradicional China</h3>
+        <div class="gancho">¿Buscas una solución natural para tus dolores físicos y emocionales (sistema nervioso)?</div>
+        <div class="explica">Agujas ultra finas en puntos específicos del cuerpo equilibran tu energía y tu sistema nervioso al mismo tiempo.</div>
+        <div class="lista">Dolor de espalda, cuello y rodilla · Ciática · Migraña · Estrés · Ansiedad · Insomnio · Dolor menstrual · Problemas digestivos · Fatiga</div>
+      </div>
+
+      <div class="tcard" data-reveal>
+        <div class="icon-wrap">
+          <svg class="joint-svg" width="40" height="46" viewBox="0 0 40 46">
+            <path d="M20 4 L20 42" stroke="#94a3a0" stroke-width="3" fill="none"/>
+            <circle cx="20" cy="10" r="5" fill="var(--coral)"/>
+            <circle cx="20" cy="26" r="5" fill="var(--azul)"/>
+            <circle cx="20" cy="38" r="5" fill="var(--verde)"/>
+          </svg>
+        </div>
+        <h3>Terapia del Dolor — Columna, Cadera y Rodilla</h3>
+        <div class="gancho">¿Uno o más dolores articulares específicos te están limitando?</div>
+        <div class="explica">Terapia del dolor enfocada en columna, cadera y rodilla — atacamos el origen de la molestia, no solo el síntoma.</div>
+        <div class="lista">Hernias discales · Ciática · Lumbalgia · Escoliosis · Dolor de cuello · Dolor e inflamación de cadera y rodilla</div>
+        <div class="tecnicas">Técnicas: Terapia de Maitland (manipulación vertebral) y terapia del bloqueo del dolor</div>
+      </div>
+
+      <div class="tcard" data-reveal>
+        <div class="icon-wrap"><span class="icon-emoji anim-float">🧩</span></div>
+        <h3>Rehabilitación neurológica y neurocognitiva</h3>
+        <div class="gancho">¿Un ACV, derrame o ictus cambió tu día a día o el de un familiar?</div>
+        <div class="lista">Recuperación de movimiento y función cognitiva post-ACV, derrame cerebral o ictus, con Método Perfetti.</div>
+      </div>
+
+      <div class="tcard" data-reveal>
+        <div class="icon-wrap"><span class="icon-emoji anim-float">🥽</span></div>
+        <h3>C2 Care — Realidad Virtual</h3>
+        <div class="gancho">¿Hay algo que te limita y que ninguna pastilla ha resuelto?</div>
+        <div class="lista">Terapia inmersiva con realidad virtual. Fobias · Miedo a hablar en público · Ansiedad. Sin agujas — ver sección completa abajo ↓</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="c2-section" id="c2care">
+  <div class="container c2-flex">
+    <div class="c2-visual" data-reveal><span class="vr-icon">🥽</span></div>
+    <div data-reveal>
+      <div class="c2-tag">🆕 CONOCE NUESTRO SERVICIO MÁS NUEVO</div>
+      <h2>C2 Care — Terapia inmersiva con Realidad Virtual</h2>
+      <p>A través de un visor de realidad virtual, te exponemos de forma gradual y controlada a la situación que te genera miedo o ansiedad, siempre acompañado por un profesional. Ideal para quienes no toleran agujas.</p>
+      <div class="c2-box">
+        <strong>¿Qué es una fobia?</strong> Un miedo muy intenso a algo específico — alturas, espacios cerrados, ciertos animales, o hablar en público — que limita tu día a día aunque sepas que "no es para tanto". C2 Care te ayuda a enfrentarlo paso a paso.
+      </div>
+      <div class="c2-box">
+        <strong>También se usa en rehabilitación neurológica:</strong> es común que tras un ACV aparezca miedo a ciertos movimientos (como miedo a caerse al caminar). C2 Care trabaja ese miedo como complemento a la rehabilitación física.
+      </div>
+      <div class="c2-lista">Fobias específicas · Miedo a hablar en público · Ansiedad social y general · Miedo asociado a rehabilitación post-ACV</div>
+      <a class="c2-btn js-wa" href="#" target="_blank" rel="noopener">Quiero saber más →</a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-navy">
+  <div class="container porque-grid">
+    <div data-reveal>
+      <div class="section-title" style="text-align:left;">Tu cuerpo no divide el dolor en "físico" y "emocional"</div>
+      <p>Cuando algo se sale de equilibrio, el cuerpo puede quedar atascado en modo de alerta. Ahí es cuando el dolor se vuelve crónico, la ansiedad no baja, o el insomnio no se explica.</p>
+      <p>Terapia Neural y Acupuntura trabajan directo sobre ese sistema. No tapamos el síntoma: regulamos la señal que lo está causando.</p>
+    </div>
+    <div class="porque-badge" data-reveal>"Corregimos la causa, no solo aliviamos." — Es la razón por la que un mismo tratamiento puede ayudar en casos que a simple vista no parecen tener relación entre sí.</div>
+  </div>
+</section>
+
+<section id="sedes">
+  <div class="container">
+    <div class="section-title" data-reveal>Nuestras sucursales</div>
+    <div class="section-sub" data-reveal>Elige la sucursal que te quede más cómoda. Atención únicamente con cita previa.</div>
+    <div class="sedes-grid">
+      <div class="sede-card" data-reveal>
+        <h3>📍 Sucursal Norte</h3>
+        <div class="ref">Sector Clínica Pasteur y Metro La Pradera</div>
+        <div class="previa">📅 Lunes a sábado — PREVIA CITA</div>
+      </div>
+      <div class="sede-card" data-reveal>
+        <h3>📍 Sucursal Sur</h3>
+        <div class="ref">Sector Hospital del IESS del Sur y Estación del Trole El Calzado</div>
+        <div class="previa">📅 Lunes, miércoles, viernes y sábado — PREVIA CITA</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICIOS PREMIUM (reemplaza testimonios) ================= -->
+<section class="premium-section" id="premium">
+  <span class="reels-glow" aria-hidden="true"></span>
+  <span class="reels-glow g2" aria-hidden="true"></span>
+  <div class="container">
+    <span class="eyebrow" data-reveal>Lo que nos distingue</span>
+    <div class="section-title" data-reveal>Nuestros servicios premium</div>
+    <div class="section-sub" data-reveal>Tratamientos de alta especialidad que muy pocos centros en Quito ofrecen — pensados para casos que "ya lo probaron todo".</div>
+    <div class="premium-grid">
+
+      <div class="pxcard" data-reveal>
+        <span class="px-badge">Más solicitado</span>
+        <span class="px-icon">🧠</span>
+        <h3>Terapia Neural</h3>
+        <p>Microinyecciones de medicación homeopática que regulan el sistema nervioso desde su origen — sin anestésicos ni cirugía.</p>
+        <ul class="px-feats">
+          <li>Actúa sobre la causa, no sobre el síntoma</li>
+          <li>Dolor crónico, ansiedad, insomnio, migraña y más</li>
+          <li>Incluye masaje terapéutico de regalo</li>
+        </ul>
+        <a class="px-link js-wa" href="#" target="_blank" rel="noopener">Agendar terapia neural →</a>
+      </div>
+
+      <div class="pxcard" data-reveal>
+        <span class="px-badge">Exclusivo</span>
+        <span class="px-icon">🥽</span>
+        <h3>C2 Care — Realidad Virtual</h3>
+        <p>Terapia inmersiva que te expone de forma gradual y controlada a aquello que te genera miedo o ansiedad. Totalmente sin agujas.</p>
+        <ul class="px-feats">
+          <li>Fobias y miedo a hablar en público</li>
+          <li>Ansiedad social y general</li>
+          <li>Complemento en rehabilitación post-ACV</li>
+        </ul>
+        <a class="px-link js-wa" href="#" target="_blank" rel="noopener">Probar C2 Care →</a>
+      </div>
+
+      <div class="pxcard" data-reveal>
+        <span class="px-badge">Alta especialidad</span>
+        <span class="px-icon">🧩</span>
+        <h3>Rehabilitación Neurológica</h3>
+        <p>Recuperación de movimiento y función cognitiva tras un ACV, derrame o ictus, con el reconocido Método Perfetti.</p>
+        <ul class="px-feats">
+          <li>Rehabilitación neurológica y neurocognitiva</li>
+          <li>Plan personalizado según tu punto de partida</li>
+          <li>Seguimiento profesional en cada etapa</li>
+        </ul>
+        <a class="px-link js-wa" href="#" target="_blank" rel="noopener">Consultar mi caso →</a>
+      </div>
+
+      <div class="pxcard" data-reveal>
+        <span class="px-badge">Medicina china</span>
+        <span class="px-icon">☯️</span>
+        <h3>Acupuntura</h3>
+        <p>Agujas ultra finas en puntos específicos que equilibran tu energía y tu sistema nervioso al mismo tiempo. Una solución natural y sin fármacos.</p>
+        <ul class="px-feats">
+          <li>Dolor de espalda, cuello y rodilla, ciática</li>
+          <li>Estrés, ansiedad e insomnio</li>
+          <li>Incluye masaje de regalo</li>
+        </ul>
+        <a class="px-link js-wa" href="#" target="_blank" rel="noopener">Agendar acupuntura →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-crema" id="resenas">
+  <div class="container">
+    <div class="reviews-head" data-reveal>
+      <div class="google-badge">
+        <svg width="20" height="20" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.52 12.27c0-.85-.08-1.66-.22-2.45H12v4.63h6.47a5.53 5.53 0 0 1-2.4 3.63v3h3.88c2.27-2.09 3.57-5.17 3.57-8.81z"/><path fill="#34A853" d="M12 24c3.24 0 5.96-1.07 7.95-2.92l-3.88-3c-1.08.72-2.45 1.15-4.07 1.15-3.13 0-5.78-2.11-6.73-4.96H1.27v3.09A12 12 0 0 0 12 24z"/><path fill="#FBBC05" d="M5.27 14.27a7.2 7.2 0 0 1 0-4.54V6.64H1.27a12 12 0 0 0 0 10.72l4-3.09z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.44-3.44C17.95 1.19 15.23 0 12 0A12 12 0 0 0 1.27 6.64l4 3.09C6.22 6.86 8.87 4.75 12 4.75z"/></svg>
+        <span><strong>4.9</strong> ★★★★★ <span class="google-count">(32 reseñas en Google)</span></span>
+      </div>
+      <div class="section-title" style="margin-top:14px;">Lo que dicen nuestros pacientes</div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card" data-reveal>
+        <div class="review-stars">★★★★★</div>
+        <p>"Super recomendado"</p>
+        <div class="review-author">— Dylan C.</div>
+      </div>
+      <div class="review-card" data-reveal>
+        <div class="review-stars">★★★★★</div>
+        <p>"Excelente servicio, son muy profesionales, comprometidos con su trabajo y tienen un excelente trato al paciente. Recomendado al 100%"</p>
+        <div class="review-author">— Taina G.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-sage" id="agendar">
+  <div class="container">
+    <div class="section-title" data-reveal>Tu cita en 3 pasos</div>
+    <div class="section-sub" data-reveal>Sin llamadas ni esperas.</div>
+    <div class="pasos">
+      <div class="paso" data-reveal><div class="num">1</div><h4>Escríbenos</h4><p>Cuéntanos tu síntoma por WhatsApp.</p></div>
+      <div class="paso" data-reveal><div class="num">2</div><h4>Elige día y sucursal</h4><p>Te confirmamos tu turno disponible.</p></div>
+      <div class="paso" data-reveal><div class="num">3</div><h4>Asiste a tu cita</h4><p>Llega 10 min antes. Nosotros hacemos el resto.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-azul" id="precios">
+  <div class="container">
+    <div class="section-title" data-reveal>Tratamientos con precio claro</div>
+    <div class="previa-cita-badge" data-reveal>📅 Atención únicamente con cita previa — agenda tu turno por WhatsApp</div>
+    <div class="section-sub" data-reveal>Cada consulta incluye evaluación, diagnóstico y un plan de recuperación. No creemos en paquetes iguales para todos.</div>
+    <div class="precios-grid">
+
+      <div class="pcard popular" id="pcard-neural" data-reveal>
+        <div class="tags"><span class="tag-pop">Más solicitado</span></div>
+        <div class="pcard-head"><span class="pcard-icon">🧠</span><h4>Terapia Neural</h4></div>
+        <div class="trata-label">Trata</div>
+        <div class="trata">Dolor crónico, migraña, fibromialgia, ansiedad, insomnio, estrés, tinnitus, prostatitis y más.</div>
+        <div class="incluye-label">Incluye</div>
+        <ul>
+          <li>✓ Consulta + examen físico</li>
+          <li>✓ Sesión de terapia neural</li>
+        </ul>
+        <div class="regalo-box"><span class="gift-icon">🎁</span><span class="gift-text">Masaje terapéutico DE REGALO</span></div>
+        <div class="precio-box" style="margin-top:14px;"><span class="precio-label">Precio</span><span class="precio">$40 <span class="old">$60</span></span></div>
+        <a class="btn-cta js-wa-custom" href="#" target="_blank" rel="noopener" style="margin-top:14px;width:100%;justify-content:center;" data-msg="Hola, vi la Terapia Neural en la web ($40, incluye masaje de regalo). Quiero agendar mi cita.">Agendar Terapia Neural →</a>
+      </div>
+
+      <div class="pcard" id="pcard-acupuntura" data-reveal>
+        <div class="pcard-head"><span class="pcard-icon">☯️</span><h4>Acupuntura</h4></div>
+        <div class="trata-label">Trata</div>
+        <div class="trata">Dolor de espalda, cuello y rodilla, ciática, migraña, estrés, ansiedad, insomnio.</div>
+        <div class="incluye-label">Incluye</div>
+        <ul>
+          <li>✓ Consulta + diagnóstico</li>
+          <li>✓ Sesión de acupuntura</li>
+        </ul>
+        <div class="regalo-box"><span class="gift-icon">🎁</span><span class="gift-text">Masaje DE REGALO</span></div>
+        <div class="precio-box" style="margin-top:14px;"><span class="precio-label">Precio</span><span class="precio">$30 <span class="old">$60</span></span></div>
+        <a class="btn-cta js-wa-custom" href="#" target="_blank" rel="noopener" style="margin-top:14px;width:100%;justify-content:center;" data-msg="Hola, vi la Acupuntura en la web ($30, incluye masaje de regalo). Quiero agendar mi cita.">Agendar Acupuntura →</a>
+      </div>
+
+      <div class="pcard" id="pcard-columna" data-reveal>
+        <div class="pcard-head"><span class="pcard-icon">🦴</span><h4>Columna</h4></div>
+        <div class="trata-label">Trata</div>
+        <div class="trata">Hernias, ciática, lumbalgia, escoliosis y dolor de cuello.</div>
+        <div class="incluye-label">Incluye</div>
+        <ul>
+          <li>✓ Evaluación + diagnóstico</li>
+          <li>✓ Terapia de Maitland (manipulación vertebral)</li>
+          <li>✓ Terapia del bloqueo del dolor</li>
+        </ul>
+        <div class="regalo-box"><span class="gift-icon">🎁</span><span class="gift-text">Masaje DE REGALO</span></div>
+        <div class="precio-box" style="margin-top:14px;"><span class="precio-label">Precio</span><span class="precio">$50 <span style="font-size:12px;color:#8a97a3;text-decoration:none;">/ $30 básica</span></span></div>
+        <a class="btn-cta js-wa-custom" href="#" target="_blank" rel="noopener" style="margin-top:14px;width:100%;justify-content:center;" data-msg="Hola, vi el tratamiento de Columna en la web (desde $30). Quiero agendar mi cita.">Agendar Columna →</a>
+      </div>
+
+      <div class="pcard" id="pcard-cadera" data-reveal>
+        <div class="pcard-head"><span class="pcard-icon">🦴</span><h4>Cadera</h4></div>
+        <div class="trata-label">Trata</div>
+        <div class="trata">Evaluación integral y tratamiento definido tras la valoración.</div>
+        <div class="incluye-label">Incluye</div>
+        <ul><li>✓ Consulta + evaluación</li><li>✓ Diagnóstico especializado</li><li>✓ Plan personalizado</li></ul>
+        <div class="precio-box"><span class="precio-label">Precio</span><span class="precio">$30</span></div>
+        <a class="btn-cta js-wa-custom" href="#" target="_blank" rel="noopener" style="margin-top:14px;width:100%;justify-content:center;" data-msg="Hola, vi el tratamiento de Cadera en la web ($30). Quiero agendar mi cita.">Agendar Cadera →</a>
+      </div>
+
+      <div class="pcard" id="pcard-rodilla" data-reveal>
+        <div class="pcard-head"><span class="pcard-icon">🦵</span><h4>Rodilla</h4></div>
+        <div class="trata-label">Trata</div>
+        <div class="trata">Dolor e inflamación de rodilla con terapia enfocada.</div>
+        <div class="incluye-label">Incluye</div>
+        <ul><li>✓ Consulta + evaluación</li><li>✓ Terapia para dolor e inflamación</li><li>✓ Plan sin costo</li></ul>
+        <div class="precio-box"><span class="precio-label">Precio</span><span class="precio">$30</span></div>
+        <a class="btn-cta js-wa-custom" href="#" target="_blank" rel="noopener" style="margin-top:14px;width:100%;justify-content:center;" data-msg="Hola, vi el tratamiento de Rodilla en la web ($30). Quiero agendar mi cita.">Agendar Rodilla →</a>
+      </div>
+
+      <div class="pcard" id="pcard-rehab" data-reveal>
+        <div class="tags"><span class="tag-new">Nuevo</span></div>
+        <div class="pcard-head"><span class="pcard-icon">🧩</span><h4>Rehabilitación Neurológica y Neurocognitiva</h4></div>
+        <div class="trata-label">Trata</div>
+        <div class="trata">Recuperación post-ACV, derrame o ictus con método Perfetti.</div>
+        <div class="incluye-label">Incluye</div>
+        <ul><li>✓ Evaluación neurocognitiva inicial</li><li>✓ Diagnóstico de tu punto de partida</li><li>✓ Plan personalizado</li></ul>
+        <div class="precio-box"><span class="precio-label">Valoración</span><span class="precio">$30</span></div>
+        <div class="descuento">✅ Se descuenta si inicias el mismo día</div>
+        <a class="btn-cta js-wa-custom" href="#" target="_blank" rel="noopener" style="margin-top:14px;width:100%;justify-content:center;" data-msg="Hola, quiero consultar sobre Rehabilitación Neurológica (valoración $30) para un caso post-ACV.">Agendar valoración →</a>
+      </div>
+
+      <div class="pcard" id="pcard-c2care" data-reveal>
+        <div class="tags"><span class="tag-new">Nuevo</span></div>
+        <div class="pcard-head"><span class="pcard-icon">🥽</span><h4>C2 Care</h4></div>
+        <div class="trata-label">Trata</div>
+        <div class="trata">Fobias, miedo a hablar en público, ansiedad — sin agujas.</div>
+        <div class="incluye-label">Incluye</div>
+        <ul><li>✓ Evaluación de tu caso</li><li>✓ Sesión demostrativa con visor VR</li><li>✓ Plan progresivo de exposición</li></ul>
+        <div class="precio-box"><span class="precio-label">Valoración</span><span class="precio">$30</span></div>
+        <div class="descuento">✅ Se descuenta si inicias el mismo día</div>
+        <a class="btn-cta js-wa-custom" href="#" target="_blank" rel="noopener" style="margin-top:14px;width:100%;justify-content:center;" data-msg="Hola, quiero saber más sobre C2 Care - Realidad Virtual (valoración $30).">Agendar valoración →</a>
+      </div>
+
+    </div>
+    <div class="precio-nota" data-reveal>No creemos en paquetes iguales para todos. Tu plan de sesiones se define después de la valoración, según tu caso — así pagas por lo que realmente necesitas, ni una sesión de más.</div>
+    <div class="pago-nota" data-reveal><strong>Sobre el pago:</strong> los precios promocionales aplican únicamente con efectivo o transferencia. Aceptamos tarjeta de crédito/débito (VISA, Mastercard, Discover y Diners) solo en la compra de paquetes de tratamiento completos. Atención únicamente con cita previa agendada por WhatsApp.</div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container" style="max-width:760px;">
+    <div class="section-title" data-reveal>Preguntas frecuentes</div>
+    <div class="faq-item" data-reveal><h4>¿Cuánto cuestan las sesiones después de la valoración?</h4><p>El número de sesiones y su costo se define según tu evaluación inicial — no existen dos casos iguales. En la valoración te lo explicamos con total claridad antes de que decidas continuar.</p></div>
+    <div class="faq-item" data-reveal><h4>¿El costo de la valoración se pierde si decido hacer el tratamiento?</h4><p>No. Si inicias tu paquete el mismo día, los $30 se descuentan del costo total.</p></div>
+    <div class="faq-item" data-reveal><h4>¿Puedo pagar con tarjeta?</h4><p>Los precios promocionales aplican solo con efectivo o transferencia. Si prefieres tarjeta (VISA, Mastercard, Discover o Diners), esa opción está disponible al adquirir un paquete completo de tratamiento.</p></div>
+    <div class="faq-item" data-reveal><h4>¿C2 Care usa agujas o algún procedimiento invasivo?</h4><p>No. Funciona con un visor de realidad virtual, sin ningún tipo de aguja. Es ideal para personas que evitan otros tratamientos por miedo a las agujas.</p></div>
+    <div class="faq-item" data-reveal><h4>¿La rehabilitación neurológica sirve para cualquier etapa después de un ACV?</h4><p>Cada caso es distinto según el tiempo transcurrido y el nivel de afectación. Por eso el primer paso siempre es la valoración.</p></div>
+    <div class="faq-item" data-reveal><h4>¿Por qué la Terapia Neural trata tantas condiciones distintas?</h4><p>Porque trabaja directo sobre el sistema nervioso, que regula gran parte de las funciones del cuerpo. Cuando se desregula, puede expresarse como dolor físico, problema digestivo o ansiedad — por eso un mismo tratamiento ayuda en casos que parecen no tener relación.</p></div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="container">
+    <div class="section-title" data-reveal>Contáctanos</div>
+    <div class="section-sub" data-reveal>Estamos para ayudarte. Escríbenos por WhatsApp o al correo y agenda tu cita.</div>
+    <div class="contacto-grid">
+      <div class="contacto-card" data-reveal>
+        <div class="ic">💬</div>
+        <h4>WhatsApp</h4>
+        <a class="js-wa" href="#" target="_blank" rel="noopener">099 271 2686</a>
+        <p>La forma más rápida de agendar</p>
+      </div>
+      <div class="contacto-card" data-reveal>
+        <div class="ic">📞</div>
+        <h4>Teléfono</h4>
+        <a href="tel:+593992712686">099 271 2686</a>
+        <p>Atención previa cita</p>
+      </div>
+      <div class="contacto-card" data-reveal>
+        <div class="ic">✉️</div>
+        <h4>Correo</h4>
+        <a href="mailto:centroespecialistaquito@gmail.com">centroespecialistaquito@gmail.com</a>
+        <p>Consultas e información</p>
+      </div>
+      <div class="contacto-card" data-reveal>
+        <div class="ic">📍</div>
+        <h4>Sucursales en Quito</h4>
+        <p>Norte · Sector Clínica Pasteur y Metro La Pradera<br>Sur · Sector Hospital del IESS del Sur y Trole El Calzado</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-final">
+  <h2 data-reveal>No sigas cargando algo que sí tiene solución</h2>
+  <p data-reveal>Miles de personas en Quito llegaron con la misma sensación que tú tienes ahora: "ya probé de todo". Escríbenos y te decimos, sin compromiso, si podemos ayudarte.</p>
+  <div class="hero-selector sede-selector" data-reveal>
+    <div class="hero-selector-label" style="color:#fff;">¿Qué sucursal te queda más cerca?</div>
+    <div class="hero-selector-chips">
+      <button type="button" class="chip-select chip-sede" data-sede="Norte">📍 Sede Norte</button>
+      <button type="button" class="chip-select chip-sede" data-sede="Sur">📍 Sede Sur</button>
+    </div>
+  </div>
+  <a class="btn-primary js-wa" href="#" target="_blank" rel="noopener" data-reveal>Escribir por WhatsApp ahora →</a>
+  <div class="pay-block">
+    <div class="pay-col"><span class="label">Promociones</span>💵 Efectivo · 🏦 Transferencia</div>
+    <div class="pay-col"><span class="label">Compra de paquetes</span>💳 VISA · Mastercard · Diners · Discover</div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="brand" style="margin-bottom:12px;">
+        <img src="logo.png" style="width:38px;height:38px;" alt="Logo Centro Especialista Quito">
+        <span style="color:#fff; font-weight:700; font-size:14px; font-family:'Fraunces',serif;">Centro Especialista Quito</span>
+      </div>
+      <p style="font-size:12px; color:#8a9583;">Terapia Neural, Acupuntura y tratamiento del dolor. Corregimos la causa, no solo aliviamos.</p>
+    </div>
+    <div>
+      <h5>Servicios</h5>
+      <ul>
+        <li><a href="#tratamos">Terapia Neural</a></li>
+        <li><a href="#tratamos">Acupuntura</a></li>
+        <li><a href="#tratamos">Terapia del dolor: columna, cadera y rodilla</a></li>
+        <li><a href="#tratamos">Rehabilitación neurológica y neurocognitiva</a></li>
+        <li><a href="#c2care">C2 Care</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Contacto</h5>
+      <ul>
+        <li><a href="tel:+593992712686">📞 099 271 2686</a></li>
+        <li><a class="js-wa" href="#" target="_blank" rel="noopener">💬 WhatsApp — Agendar cita</a></li>
+        <li><a href="mailto:centroespecialistaquito@gmail.com">✉️ centroespecialistaquito@gmail.com</a></li>
+        <li>📍 Sucursal Norte · Sector Clínica Pasteur y Metro La Pradera</li>
+        <li>📍 Sucursal Sur · Hospital del IESS del Sur y Trole El Calzado</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © <span id="year"></span> Centro Especialista Quito. Todos los derechos reservados. ·
+    <a href="privacidad.html">Política de privacidad</a>
+  </div>
+</footer>
+
+<a class="wa-float js-wa" href="#" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.6-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 2 .8 2.7.9 3.7.8.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2z"/></svg>
+</a>
+
+<a href="#sintomas" class="symptom-float" id="symptomFloat" aria-label="¿Qué te está pasando?">
+  <span class="sf-hand">👇</span>
+  <span class="sf-text">¿Qué<br>sientes?</span>
+</a>
+
+<!-- flag JS so reveal states apply only when scripting is available -->
+<script>document.documentElement.className += ' js-anim';</script>
+
+<script>
+  /* ---------- WhatsApp links + sede preference + year ---------- */
+  var WHATSAPP_NUMBER = "593992712686";
+  var WHATSAPP_MSG = "Hola, quiero agendar una consulta en Centro Especialista Quito 😊";
+
+  function getSedePref(){
+    try { return localStorage.getItem("ceq_sede") || ""; } catch(e){ return ""; }
+  }
+  function setSedePref(sede){
+    try { localStorage.setItem("ceq_sede", sede); } catch(e){}
+  }
+  function buildMsg(base){
+    var sede = getSedePref();
+    return sede ? (base + "\n📍 Prefiero la sede " + sede) : base;
+  }
+  function refreshWaLinks(){
+    var mainLink = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(buildMsg(WHATSAPP_MSG));
+    document.querySelectorAll(".js-wa").forEach(function(el){ el.setAttribute("href", mainLink); });
+    document.querySelectorAll(".js-wa-custom").forEach(function(el){
+      var msg = el.getAttribute("data-msg") || WHATSAPP_MSG;
+      el.setAttribute("href", "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(buildMsg(msg)));
+    });
+  }
+  function refreshSedeChipStates(){
+    var sede = getSedePref();
+    document.querySelectorAll(".chip-sede").forEach(function(btn){
+      btn.classList.toggle("chip-sede-active", btn.getAttribute("data-sede") === sede);
+    });
+  }
+  document.querySelectorAll(".chip-sede").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      setSedePref(btn.getAttribute("data-sede"));
+      refreshSedeChipStates();
+      refreshWaLinks();
+    });
+  });
+  refreshSedeChipStates();
+  refreshWaLinks();
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  /* ---------- Meta Pixel: track every WhatsApp button click as a Contact event ---------- */
+  if (typeof fbq === "function") {
+    document.querySelectorAll(".js-wa, .js-wa-custom").forEach(function(el){
+      el.addEventListener("click", function(){
+        var service = el.getAttribute("data-msg") ? el.getAttribute("data-msg").split(",")[0] : "General";
+        fbq('track', 'Contact', {
+          content_name: service,
+          sede: getSedePref() || "No especificada"
+        });
+      });
+    });
+  }
+
+  /* ---------- persistent symptom-selector floating button ---------- */
+  var symptomFloat = document.getElementById("symptomFloat");
+  var sintomasSection = document.getElementById("sintomas");
+  if (symptomFloat && sintomasSection && "IntersectionObserver" in window) {
+    var sfObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        symptomFloat.classList.toggle("sf-hidden", entry.isIntersecting);
+      });
+    }, { threshold: 0.15 });
+    sfObserver.observe(sintomasSection);
+  }
+
+  /* ---------- header shadow on scroll ---------- */
+  var siteHeader = document.getElementById("siteHeader");
+  window.addEventListener("scroll", function(){
+    if (window.scrollY > 20) siteHeader.classList.add("scrolled");
+    else siteHeader.classList.remove("scrolled");
+  }, { passive:true });
+
+  /* ---------- dim WhatsApp float while actively scrolling (avoids covering text mid-scroll) ---------- */
+  var waFloatBtn = document.querySelector(".wa-float");
+  if (waFloatBtn){
+    var waDimTimer;
+    window.addEventListener("scroll", function(){
+      waFloatBtn.classList.add("wa-dim");
+      clearTimeout(waDimTimer);
+      waDimTimer = setTimeout(function(){ waFloatBtn.classList.remove("wa-dim"); }, 900);
+    }, { passive:true });
+  }
+
+  /* ---------- mobile menu toggle ---------- */
+  var menuToggle = document.getElementById("menuToggle");
+  var siteNav = document.getElementById("siteNav");
+  if (menuToggle && siteNav){
+    menuToggle.addEventListener("click", function(){
+      var open = siteNav.classList.toggle("nav-open");
+      menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    siteNav.querySelectorAll("a").forEach(function(a){
+      a.addEventListener("click", function(){
+        siteNav.classList.remove("nav-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- VIDEOS: autoplay on scroll + sound toggle ---------- */
+  var SVG_MUTED = '<path d="M3 10v4h4l5 5V5L7 10H3zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/><line x1="19" y1="5" x2="5" y2="21" stroke="currentColor" stroke-width="2"/>';
+  var SVG_ON = '<path d="M3 10v4h4l5 5V5L7 10H3zm11 .5a4.5 4.5 0 0 1 0 7v-1.6a3 3 0 0 0 0-3.8V10.5zM14 4.5a8 8 0 0 1 0 15v-1.6a6.4 6.4 0 0 0 0-11.8V4.5z"/>';
+
+  var reels = Array.prototype.slice.call(document.querySelectorAll(".reel"));
+
+  reels.forEach(function(reel){
+    var video = reel.querySelector("video");
+    var btn = reel.querySelector(".sound-btn");
+    var svg = btn.querySelector("svg");
+
+    // sound toggle: unmute this one, mute + keep playing all others
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      var makeAudible = btn.getAttribute("data-muted") === "true";
+      if (makeAudible){
+        reels.forEach(function(other){
+          if (other !== reel){
+            var ov = other.querySelector("video");
+            var ob = other.querySelector(".sound-btn");
+            ov.muted = true;
+            ob.setAttribute("data-muted","true");
+            ob.querySelector("svg").innerHTML = SVG_MUTED;
+          }
+        });
+        video.muted = false;
+        video.play().catch(function(){});
+        btn.setAttribute("data-muted","false");
+        svg.innerHTML = SVG_ON;
+      } else {
+        video.muted = true;
+        btn.setAttribute("data-muted","true");
+        svg.innerHTML = SVG_MUTED;
+      }
+    });
+
+    // tap the video toggles play/pause manually
+    video.addEventListener("click", function(){
+      if (video.paused) video.play().catch(function(){});
+      else video.pause();
+    });
+  });
+
+  if ("IntersectionObserver" in window){
+    var vObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        var reel = entry.target;
+        var video = reel.querySelector("video");
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.55){
+          if (video.preload === "none") video.preload = "auto";
+          video.play().then(function(){ reel.classList.add("playing"); }).catch(function(){});
+        } else {
+          video.pause();
+          reel.classList.remove("playing");
+        }
+      });
+    }, { threshold:[0, 0.55, 0.9] });
+    reels.forEach(function(reel){ vObserver.observe(reel); });
+  } else {
+    // no IO support: just load + play muted loops
+    reels.forEach(function(reel){
+      var video = reel.querySelector("video");
+      video.preload = "auto"; video.play().catch(function(){});
+    });
+  }
+</script>
+
+<!-- ---------- Reveal on scroll (IntersectionObserver + CSS; independent of GSAP) ---------- -->
+<script>
+(function(){
+  var reveals = Array.prototype.slice.call(document.querySelectorAll("[data-reveal]"));
+  if (reduceMotion || !("IntersectionObserver" in window)){
+    reveals.forEach(function(el){ el.classList.add("in"); });
+    return;
+  }
+  var ro = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting){
+        entry.target.classList.add("in");
+        ro.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.14, rootMargin: "0px 0px -6% 0px" });
+
+  // Small stagger among siblings for a polished cascade
+  reveals.forEach(function(el){
+    var idx = Array.prototype.indexOf.call(el.parentNode.children, el);
+    el.style.transitionDelay = Math.min(idx * 60, 260) + "ms";
+    ro.observe(el);
+  });
+})();
+</script>
+
+<!-- GSAP: counters + subtle parallax only (progressive enhancement, non-critical) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(function(){
+  if (typeof window.gsap === "undefined" || reduceMotion){
+    document.querySelectorAll("[data-count]").forEach(function(el){
+      var t = parseFloat(el.getAttribute("data-count"));
+      var s = el.getAttribute("data-suffix") || "";
+      el.textContent = (t >= 1000 ? t.toLocaleString("es-EC") : t) + s;
+    });
+    return;
+  }
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Animated number counters
+  document.querySelectorAll("[data-count]").forEach(function(el){
+    var target = parseFloat(el.getAttribute("data-count"));
+    var suffix = el.getAttribute("data-suffix") || "";
+    var obj = { v:0 };
+    ScrollTrigger.create({
+      trigger: el, start: "top 92%", once: true,
+      onEnter: function(){
+        gsap.to(obj, {
+          v: target, duration: 1.6, ease:"power1.out",
+          onUpdate: function(){
+            var n = Math.round(obj.v);
+            el.textContent = (n >= 1000 ? n.toLocaleString("es-EC") : n) + suffix;
+          }
+        });
+      }
+    });
+  });
+
+  // Subtle parallax on the reels phones
+  gsap.utils.toArray(".reel .phone").forEach(function(ph){
+    gsap.fromTo(ph, { y: 22 }, {
+      y: -22, ease:"none",
+      scrollTrigger: { trigger: ph, start:"top bottom", end:"bottom top", scrub: true }
+    });
+  });
+})();
+</script>
+</body>
+</html>
