@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://bryanligabow-lab.github.io/centro-especialista-quito/sitemap.xml
